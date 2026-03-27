@@ -57,11 +57,6 @@ const CAPABILITIES = [
 
 const PROJECTS = [
   {
-    title: "Meridian Brand System",
-    category: "Brand Identity",
-    image: "/assets/generated/project-brand-identity.dim_400x300.jpg",
-  },
-  {
     title: "Solstice Web Platform",
     category: "Web Design",
     image: "/assets/generated/project-web-design.dim_400x300.jpg",
@@ -72,11 +67,6 @@ const PROJECTS = [
     image: "/assets/generated/project-mobile-app.dim_400x300.jpg",
   },
   {
-    title: "Terra Print Series",
-    category: "Print Design",
-    image: "/assets/generated/project-print-design.dim_400x300.jpg",
-  },
-  {
     title: "Auris Photography",
     category: "Photography",
     image: "/assets/generated/project-photography.dim_400x300.jpg",
@@ -85,16 +75,6 @@ const PROJECTS = [
     title: "Vora Logo Collection",
     category: "Logo Design",
     image: "/assets/generated/project-logo-design.dim_400x300.jpg",
-  },
-  {
-    title: "Kova Design System",
-    category: "Design Systems",
-    image: "/assets/generated/project-design-system.dim_400x300.jpg",
-  },
-  {
-    title: "Nomad Campaign",
-    category: "Creative Direction",
-    image: "/assets/generated/project-creative-direction.dim_400x300.jpg",
   },
 ];
 
