@@ -328,15 +328,15 @@ export default function App() {
                   Design is how I make sense of the world.
                 </h2>
                 <p className="font-body text-muted-foreground leading-relaxed mb-4">
-                  For over a decade I've helped startups, agencies, and Fortune
-                  500 companies express complex ideas through clear, beautiful
-                  design. My work bridges strategy and craft — from early-stage
-                  brand discovery to production-ready systems.
+                  For the past 6 months, I've express complex ideas through
+                  clear, thoughtful design. My work bridges strategy and
+                  execution — from early-stage brand discovery to
+                  production-ready systems.
                 </p>
                 <p className="font-body text-muted-foreground leading-relaxed">
-                  I believe great design is invisible: it removes friction,
-                  builds trust, and leaves a lasting impression without
-                  announcing itself.
+                  I believe great design is often invisible: it removes
+                  friction, builds trust, and creates a lasting impression
+                  without drawing attention to itself.
                 </p>
               </FadeUp>
 
@@ -363,16 +363,18 @@ export default function App() {
                     </div>
                   </div>
                   <div className="grid grid-cols-1 gap-4 text-center">
-                    {[{ value: "4", label: "Design Awards" }].map((stat) => (
-                      <div key={stat.label}>
-                        <p className="font-display text-3xl font-bold text-foreground">
-                          {stat.value}
-                        </p>
-                        <p className="font-body text-xs text-muted-foreground mt-1">
-                          {stat.label}
-                        </p>
-                      </div>
-                    ))}
+                    {[{ value: "1", label: "Website Developed" }].map(
+                      (stat) => (
+                        <div key={stat.label}>
+                          <p className="font-display text-3xl font-bold text-foreground">
+                            {stat.value}
+                          </p>
+                          <p className="font-body text-xs text-muted-foreground mt-1">
+                            {stat.label}
+                          </p>
+                        </div>
+                      ),
+                    )}
                   </div>
                 </div>
               </FadeUp>
