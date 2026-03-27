@@ -262,30 +262,27 @@ export default function App() {
                 <motion.p
                   initial={{ opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                  className="text-xs font-body uppercase tracking-[0.18em] text-muted-foreground mb-4"
+                  transition={{ duration: 0.5, delay: 0.05 }}
+                  className="font-body text-sm font-medium text-secondary uppercase tracking-[0.14em] mb-3"
                 >
                   Creative Designer with AI & Visual Storyteller
                 </motion.p>
                 <motion.h1
                   initial={{ opacity: 0, y: 24 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.65, delay: 0.1 }}
+                  transition={{ duration: 0.65, delay: 0.12 }}
                   className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-foreground mb-6"
                 >
-                  Creative Designer
-                  <em className="block not-italic text-secondary"> & Visual</em>
-                  Storyteller
+                  I Design Brands,
+                  <em className="block not-italic text-secondary">
+                    {" "}
+                    Products,
+                  </em>
+                  & Digital Experiences
+                  <span className="block text-4xl md:text-5xl lg:text-6xl mt-1">
+                    That Resonate.
+                  </span>
                 </motion.h1>
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.25 }}
-                  className="font-body text-muted-foreground text-lg leading-relaxed mb-8 max-w-md"
-                >
-                  I design brands, products, and digital experiences that
-                  resonate. Based in New York — working globally.
-                </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -327,28 +324,11 @@ export default function App() {
                 <div className="relative w-full max-w-md">
                   <div className="absolute -inset-3 rounded-3xl bg-accent opacity-60 blur-sm" />
                   <img
-                    src="/assets/generated/portrait-alex.dim_600x700.jpg"
+                    src="/assets/uploads/whatsapp_image_2026-03-27_at_6.05.21_pm-019d2f4b-aa46-736b-b8de-f7b8ece500d8-1.jpeg"
                     alt="Ashwin Prem"
                     className="relative w-full rounded-3xl object-cover shadow-card border border-border"
-                    style={{ aspectRatio: "4/5" }}
+                    style={{ aspectRatio: "4/5", objectPosition: "center top" }}
                   />
-                  {/* Floating badge */}
-                  <div className="absolute -bottom-4 -left-4 bg-card border border-border rounded-2xl px-4 py-3 shadow-card">
-                    <p className="font-display text-2xl font-bold text-foreground">
-                      10+
-                    </p>
-                    <p className="font-body text-xs text-muted-foreground">
-                      Years of Experience
-                    </p>
-                  </div>
-                  <div className="absolute -top-4 -right-4 bg-primary rounded-2xl px-4 py-3 shadow-card">
-                    <p className="font-display text-2xl font-bold text-primary-foreground">
-                      85+
-                    </p>
-                    <p className="font-body text-xs text-primary-foreground/70">
-                      Happy Clients
-                    </p>
-                  </div>
                 </div>
               </motion.div>
             </div>
@@ -385,9 +365,10 @@ export default function App() {
                 <div className="bg-card border border-border rounded-2xl p-6 shadow-card">
                   <div className="flex gap-4 items-center mb-6 pb-6 border-b border-border">
                     <img
-                      src="/assets/generated/portrait-alex.dim_600x700.jpg"
+                      src="/assets/uploads/whatsapp_image_2026-03-27_at_6.05.21_pm-019d2f4b-aa46-736b-b8de-f7b8ece500d8-1.jpeg"
                       alt="Ashwin Prem"
                       className="w-16 h-16 rounded-full object-cover border-2 border-border"
+                      style={{ objectPosition: "center top" }}
                     />
                     <div>
                       <h3 className="font-display font-bold text-foreground text-lg">
@@ -396,14 +377,13 @@ export default function App() {
                       <p className="font-body text-sm text-muted-foreground">
                         Creative Designer with AI & Visual Storyteller
                       </p>
+                      <p className="font-body text-xs text-muted-foreground/70 mt-0.5 flex items-center gap-1">
+                        <MapPin size={10} /> Switzerland & India
+                      </p>
                     </div>
                   </div>
-                  <div className="grid grid-cols-3 gap-4 text-center">
-                    {[
-                      { value: "10+", label: "Years Exp" },
-                      { value: "85+", label: "Clients" },
-                      { value: "4", label: "Design Awards" },
-                    ].map((stat) => (
+                  <div className="grid grid-cols-1 gap-4 text-center">
+                    {[{ value: "4", label: "Design Awards" }].map((stat) => (
                       <div key={stat.label}>
                         <p className="font-display text-3xl font-bold text-foreground">
                           {stat.value}
@@ -510,25 +490,25 @@ export default function App() {
                   </p>
                   <div className="space-y-4">
                     <a
-                      href="mailto:hello@ashwinprem.co"
+                      href="mailto:ashwinmunni7@gmail.com"
                       className="flex items-center gap-3 group"
                     >
                       <div className="w-9 h-9 rounded-full bg-accent flex items-center justify-center">
                         <Mail size={15} className="text-foreground" />
                       </div>
                       <span className="font-body text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                        hello@ashwinprem.co
+                        ashwinmunni7@gmail.com
                       </span>
                     </a>
                     <a
-                      href="tel:+12125550180"
+                      href="tel:+918639139641"
                       className="flex items-center gap-3 group"
                     >
                       <div className="w-9 h-9 rounded-full bg-accent flex items-center justify-center">
                         <Phone size={15} className="text-foreground" />
                       </div>
                       <span className="font-body text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                        +1 (212) 555-0180
+                        +91 86391 39641
                       </span>
                     </a>
                   </div>
@@ -667,8 +647,6 @@ export default function App() {
           </div>
         </section>
       </main>
-
-      {/* ── Footer ── */}
       <footer className="bg-band border-t border-border pt-12 pb-6">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-3 gap-8 items-start mb-10">
@@ -680,9 +658,12 @@ export default function App() {
               >
                 ASHWIN PREM
               </a>
-              <p className="font-body text-sm text-muted-foreground mt-2 leading-relaxed max-w-xs">
-                Creative Designer with AI & Visual Storyteller, crafting
-                meaningful digital experiences.
+              <p className="font-body text-sm text-muted-foreground mt-1 leading-relaxed">
+                Creative Designer with AI & Visual Storyteller
+              </p>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed max-w-xs">
+                I Design Brands, Products, And Digital Experiences That
+                Resonate. Based In Switzerland And India.
               </p>
             </div>
 
