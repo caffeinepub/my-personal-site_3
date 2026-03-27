@@ -702,17 +702,6 @@ export default function App() {
             <p className="font-body text-xs text-muted-foreground">
               © {new Date().getFullYear()} Ashwin Prem. All rights reserved.
             </p>
-            <p className="font-body text-xs text-muted-foreground">
-              Built with ❤ using{" "}
-              <a
-                href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
-                className="underline underline-offset-2 hover:text-foreground transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                caffeine.ai
-              </a>
-            </p>
           </div>
         </div>
       </footer>
