@@ -179,7 +179,7 @@ export default function App() {
             className="font-display font-bold text-lg tracking-wider text-foreground hover:text-primary transition-colors"
             data-ocid="nav.link"
           >
-            ALEX RIVERA
+            ASHWIN PREM
           </a>
 
           {/* Desktop Nav */}
@@ -265,7 +265,7 @@ export default function App() {
                   transition={{ duration: 0.5 }}
                   className="text-xs font-body uppercase tracking-[0.18em] text-muted-foreground mb-4"
                 >
-                  Designer & Storyteller
+                  Creative Designer with AI & Visual Storyteller
                 </motion.p>
                 <motion.h1
                   initial={{ opacity: 0, y: 24 }}
@@ -328,7 +328,7 @@ export default function App() {
                   <div className="absolute -inset-3 rounded-3xl bg-accent opacity-60 blur-sm" />
                   <img
                     src="/assets/generated/portrait-alex.dim_600x700.jpg"
-                    alt="Alex Rivera"
+                    alt="Ashwin Prem"
                     className="relative w-full rounded-3xl object-cover shadow-card border border-border"
                     style={{ aspectRatio: "4/5" }}
                   />
@@ -362,7 +362,7 @@ export default function App() {
               {/* Left text */}
               <FadeUp>
                 <p className="font-body text-xs uppercase tracking-[0.18em] text-muted-foreground mb-3">
-                  About Alex
+                  About Ashwin
                 </p>
                 <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight text-foreground mb-6">
                   Design is how I make sense of the world.
@@ -386,22 +386,16 @@ export default function App() {
                   <div className="flex gap-4 items-center mb-6 pb-6 border-b border-border">
                     <img
                       src="/assets/generated/portrait-alex.dim_600x700.jpg"
-                      alt="Alex Rivera"
+                      alt="Ashwin Prem"
                       className="w-16 h-16 rounded-full object-cover border-2 border-border"
                     />
                     <div>
                       <h3 className="font-display font-bold text-foreground text-lg">
-                        Alex Rivera
+                        Ashwin Prem
                       </h3>
                       <p className="font-body text-sm text-muted-foreground">
-                        Senior Designer & Art Director
+                        Creative Designer with AI & Visual Storyteller
                       </p>
-                      <div className="flex items-center gap-1 mt-1">
-                        <MapPin size={11} className="text-muted-foreground" />
-                        <span className="font-body text-xs text-muted-foreground">
-                          New York, NY
-                        </span>
-                      </div>
                     </div>
                   </div>
                   <div className="grid grid-cols-3 gap-4 text-center">
@@ -516,14 +510,14 @@ export default function App() {
                   </p>
                   <div className="space-y-4">
                     <a
-                      href="mailto:hello@alexrivera.co"
+                      href="mailto:hello@ashwinprem.co"
                       className="flex items-center gap-3 group"
                     >
                       <div className="w-9 h-9 rounded-full bg-accent flex items-center justify-center">
                         <Mail size={15} className="text-foreground" />
                       </div>
                       <span className="font-body text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                        hello@alexrivera.co
+                        hello@ashwinprem.co
                       </span>
                     </a>
                     <a
@@ -684,10 +678,10 @@ export default function App() {
                 href="#home"
                 className="font-display font-bold text-xl tracking-wider text-foreground"
               >
-                ALEX RIVERA
+                ASHWIN PREM
               </a>
               <p className="font-body text-sm text-muted-foreground mt-2 leading-relaxed max-w-xs">
-                Senior Designer & Art Director based in New York, crafting
+                Creative Designer with AI & Visual Storyteller, crafting
                 meaningful digital experiences.
               </p>
             </div>
@@ -745,7 +739,7 @@ export default function App() {
 
           <div className="border-t border-border pt-5 flex flex-col sm:flex-row justify-between items-center gap-2">
             <p className="font-body text-xs text-muted-foreground">
-              © {new Date().getFullYear()} Alex Rivera. All rights reserved.
+              © {new Date().getFullYear()} Ashwin Prem. All rights reserved.
             </p>
             <p className="font-body text-xs text-muted-foreground">
               Built with ❤ using{" "}
